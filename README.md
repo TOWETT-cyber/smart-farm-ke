@@ -5,30 +5,35 @@ An AI-powered farming assistant designed specifically for Kenyan smallholder far
 ## ✨ Features
 
 ### 🖼️ Plant Disease Diagnosis
+
 - Upload crop images for instant disease analysis
 - AI-powered identification of diseases and pests
 - Severity assessment and treatment recommendations
 - Support for multiple Kenyan crops
 
 ### 🥛 Dairy Farming Assistant
+
 - AI-powered veterinary advice for dairy cows
 - Symptom analysis and diagnosis
 - Treatment recommendations and feeding advice
 - Emergency situation detection
 
 ### 🌱 Fertilizer Recommendations
+
 - Soil health analysis based on crop type and symptoms
 - Personalized fertilizer suggestions
 - Organic and inorganic options
 - Cost-effective solutions for Kenyan farmers
 
 ### 🌤️ Weather-Based Farming Advice
+
 - Real-time weather data integration
 - Farming activity recommendations based on weather
 - Warning systems for adverse conditions
 - County-specific weather insights
 
 ### 📚 Farming History
+
 - Track diagnosis and recommendation history
 - Learning from past interactions
 - Data-driven farming insights
@@ -36,17 +41,20 @@ An AI-powered farming assistant designed specifically for Kenyan smallholder far
 ## 🛠️ Tech Stack
 
 ### Frontend
+
 - **React.js** - Modern JavaScript library for building user interfaces
 - **Axios** - HTTP client for API requests
 - **CSS3** - Styling and responsive design
 
 ### Backend
+
 - **Node.js** - JavaScript runtime environment
 - **Express.js** - Web application framework
 - **MongoDB** - NoSQL database for data storage
 - **Mongoose** - MongoDB object modeling
 
 ### AI & APIs
+
 - **Google Gemini AI** - Advanced language model for farming advice
 - **Open-Meteo API** - Free weather data service
 - **Cloudinary** - Image upload and storage
@@ -54,6 +62,7 @@ An AI-powered farming assistant designed specifically for Kenyan smallholder far
 ## 🚀 Installation
 
 ### Prerequisites
+
 - Node.js (v16 or higher)
 - MongoDB Atlas account (or local MongoDB)
 - Google AI Studio API key
@@ -62,12 +71,14 @@ An AI-powered farming assistant designed specifically for Kenyan smallholder far
 ### Backend Setup
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/your-username/smart-farm-ke.git
    cd smart-farm-ke
    ```
 
 2. **Install backend dependencies**
+
    ```bash
    cd backend
    npm install
@@ -75,6 +86,7 @@ An AI-powered farming assistant designed specifically for Kenyan smallholder far
 
 3. **Set up environment variables**
    Create a `.env` file in the backend directory:
+
    ```env
    PORT=5000
    NODE_ENV=development
@@ -93,12 +105,14 @@ An AI-powered farming assistant designed specifically for Kenyan smallholder far
 ### Frontend Setup
 
 1. **Install frontend dependencies**
+
    ```bash
    cd ../frontend
    npm install
    ```
 
 2. **Start the development server**
+
    ```bash
    npm start
    ```
@@ -109,18 +123,23 @@ An AI-powered farming assistant designed specifically for Kenyan smallholder far
 ## 📡 API Endpoints
 
 ### Plant Diagnosis
+
 - `POST /api/diagnose` - Upload image for disease analysis
 
 ### Dairy Assistant
+
 - `POST /api/dairy` - Get dairy farming advice
 
 ### Fertilizer Recommendations
+
 - `POST /api/fertilizer` - Get fertilizer recommendations
 
 ### Weather Insights
+
 - `POST /api/weather` - Get weather-based farming advice
 
 ### History
+
 - `GET /api/history` - Retrieve farming history
 - `POST /api/history` - Save farming session
 
@@ -166,6 +185,7 @@ We welcome contributions from the community! Here's how you can help:
 6. **Open a Pull Request**
 
 ### Development Guidelines
+
 - Follow existing code style and structure
 - Add comments for complex logic
 - Test your changes before submitting
@@ -186,6 +206,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 For support, questions, or feedback:
+
 - Create an issue on GitHub
 - Contact the development team
 - Join our community discussions
@@ -205,4 +226,4 @@ For support, questions, or feedback:
 
 **Built with ❤️ for Kenyan farmers by the Smart Farm Kenya team**
 
-*Empowering smallholder farmers with AI-driven agricultural solutions* 🌾🇰🇪
+_Empowering smallholder farmers with AI-driven agricultural solutions_ 🌾🇰🇪
